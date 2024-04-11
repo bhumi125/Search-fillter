@@ -27,7 +27,7 @@ function App() {
   // ============================================================
 
   return (
-    <div className="bg-white w-full xl:w-[390px] m-auto pb-6 rounded-lg overflow-hidden	">
+    <div className="bg-white w-full min-w-[365px] xl:w-[400px] lg:w-[400px] md:w-[400px] sm:w-[400px] m-auto justify-center pb-6 md:rounded-lg overflow-hidden	">
       <div className=" bg-[url('https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb')] bg-auto w-[100%]">
         <Formfield keyword={keyword} setKeyword={setKeyword} />
       </div>

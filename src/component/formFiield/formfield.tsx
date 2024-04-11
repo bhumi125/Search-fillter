@@ -8,7 +8,7 @@ type Props = {
 export default function Formfield({ keyword, setKeyword }: Props) {
   return (
     <form className="flex flex-col gap-2 p-[20px_20px] pb-9">
-      <div>
+      <div className="text-center">
         <p className="text-[16px] text-white font-bold">Your Name</p>
         <p className="text-[12px]">Bangkok, Thailand</p>
       </div>

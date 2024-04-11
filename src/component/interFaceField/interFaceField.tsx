@@ -16,7 +16,7 @@ type props = {
 
 export default function InterFaceField({ filtered }: props) {
   return (
-    <ul className=" m-[0_20px] mt-[-20px] overflow-scroll shadow-2xl rounded-xl">
+    <ul className="xl:h-[590px] lg:h-[590px] md:h-[590px] sm:h-[590px] m-[0_20px] mt-[-20px] overflow-scroll shadow-2xl rounded-xl">
       {filtered.map((item) => {
         return (
           <li
